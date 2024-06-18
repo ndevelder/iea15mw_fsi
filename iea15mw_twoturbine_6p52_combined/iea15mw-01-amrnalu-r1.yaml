@@ -2,10 +2,10 @@
 
 exawind:
   nalu_wind_inp:
-    - iea15mw-nalu-01.yaml
-    - iea15mw-nalu-02.yaml
-  amr_wind_inp: iea15mw-amr-bg.inp
-  num_timesteps: 43200
+    - iea15mw-nalu-01-r1.yaml
+    - iea15mw-nalu-02-r1.yaml
+  amr_wind_inp: iea15mw-amr-bg-r1.inp
+  num_timesteps: 5
   nonlinear_iterations: 1
 
   # Variables for overset exchange

@@ -1,7 +1,7 @@
 #.......................................#
 #            SIMULATION STOP            #
 #.......................................#
-time.start_time              =   5.2
+time.start_time              =   0.5
 time.stop_time               =   -2000     # Max (simulated) time to evolve
 time.max_step                =   -1          # Max number of time steps
 #.......................................#
@@ -15,9 +15,9 @@ time.cfl              =   1.0       # CFL factor
 io.KE_int = -1
 io.line_plot_int = -1
 io.derived_outputs = q_criterion
-io.restart_file = chk05200
-time.plot_interval            =  100       # Steps between plot files
-time.checkpoint_interval      =  200       # Steps between checkpoint files
+io.restart_file = chk00500
+time.plot_interval            =  200       # Steps between plot files
+time.checkpoint_interval      =  500       # Steps between checkpoint files
 
 incflo.initial_iterations = 3
 
